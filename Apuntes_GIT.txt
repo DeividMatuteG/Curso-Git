@@ -1,0 +1,13 @@
+***CREAR REPOSITORIO***
+git init se usa al inicio del proyecto como para inicializar el proyecto con el uso de Git
+git status -s Se usa como para ver los archivos no estan en seguimiento, o estan en area de ensayo, a la par tienen unos signos de preguntas los archivos que no están haciendo seguimiento de ese archivoo en otro caso tienen una letra, lo cual es que han sido agregados, o sea se le esta monitereando o haciendo un seguimiento.
+git add Listas_Basico.py Asi se agrega ese archivo y saldra la letra A, ahora ese archivo estará en el area de ensayo.
+git add . Esto agrega todos los archivos.
+git commit -m "Comienzo del Proyecto" Asi se hace una instantánea del archivo. Al tener esta copia, el archivo deseparacerá del status porque ya se agregó al repositorio.
+Cuando se hace un git status -s y aparece un archivo con una M roja quiere decir que el archivo ha sido modificado y ese cambio no ha sido respaldado.
+Para modificar se hace con el git commit -m "Agregado de Impresion del Final del Proyecto" Y luego de eso de agrega el archivo con git add ListasBasico.py Y por ultimo para confirmar se hace un status y tiene que salir en el archivo una M de color verde
+git log --oneline Se usa para ver cuantas instantaneas o copias que he hecho en un archivo se hace con el comando 
+git reset --hard 01cdadc6 Se usa para restaurar un archivo a como lo tenia al principio y ese codigo es el codigo de la instantaea que deseas restaurar.
+
+**SUBIENDO A GITHUB**
+Esto nos permite tener una copia de seguridad en la nube(GitHub) donde podremos rescatar los repositorios o archivos.
